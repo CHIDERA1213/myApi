@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+#Apipanel{
+    background-color: brown;
+    padding: 3rem;
+  
+}
+
+.switcher{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Api{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+   
+    /* text-align: center; */
+}
+
+.ApiInterface{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.logoApi, .Icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Api .logoApi img{
+    width: 40px;
+    border-radius: 50%;
+    height: 50px;
+    object-fit: contain;
+
+}
+
+.ImageApi{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom:1px solid rgb(65, 64, 64);
+    padding: 5px;
+
+}
+
+.ImageApi img{
+    width: 12%;
+    border-radius: 50%;
+    height: 40px;
+  
+}
+
+.info{
+    flex-direction: column;
+}
+
+.search{
+    display: none;
+}
+
+.showInput{
+    display: block;
+}
+
+.darkmode{
+    background:rgb(56, 56, 56);
+    color: #fff;
+}
